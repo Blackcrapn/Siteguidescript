@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайд на установку инжектора</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #fff;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(90deg, #ff7eee, #a18fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .profile-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #a18fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .profile-link:hover {
+            color: #ff7eee;
+            transform: translateY(-2px);
+        }
+        
+        .content {
+            font-size: 1.1rem;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border-left: 4px solid #a18fff;
+        }
+        
+        .section h2 {
+            margin-bottom: 15px;
+            color: #ff7eee;
+            font-size: 1.5rem;
+        }
+        
+        .steps {
+            counter-reset: step-counter;
+        }
+        
+        .step {
+            margin-bottom: 20px;
+            padding-left: 60px;
+            position: relative;
+        }
+        
+        .step:before {
+            counter-increment: step-counter;
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #a18fff, #6a11cb);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #a18fff, #6a11cb);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .link-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(135deg, #ff7eee, #a18fff);
+        }
+        
+        .note {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #ff7eee;
+        }
+        
+        .highlight {
+            color: #ff7eee;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .step {
+                padding-left: 50px;
+            }
+            
+            .step:before {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📌ГАЙД НА УСТАНОВКУ ИНЖЕКТОРА📌</h1>
+            <a href="https://funpay.com/users/16260183/" class="profile-link" target="_blank">https://funpay.com/users/16260183/ 2025</a>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <p>Ранее пользователи могли свободно запускать скрипты и инжекторы на ПК. Однако недавно в игру внедрили новый античит Byfron, который значительно усложнил использование подобных инструментов. В результате большинство бесплатных инжекторов перестали работать, и ситуация изменилась.</p>
+                
+                <p>Но есть выход: для тех, кто хочет продолжать играть с возможностью использования скриптов, рекомендуется перейти на мобильное устройство или использовать эмулятор. На мобильной версии Roblox пока что отсутствует встроенный античит, что открывает дополнительные возможности для игроков.</p>
+                
+                <div class="note">
+                    <p>❗Обратите внимание: изменения в системе безопасности продолжаются, и рекомендуется быть внимательным при использовании сторонних решений.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Установка эмулятора</h2>
+                <p>Если Вы планируете играть с телефона, то пропустите этот этап и сразу переходите к установке инжектора.</p>
+                
+                <div class="steps">
+                    <div class="step">
+                        <p>Скачиваем любой эмулятор. Например:</p>
+                        <div class="links">
+                            <a href="https://ru.ldplayer.net/" class="link-button" target="_blank">LDPlayer</a>
+                            <a href="https://www.bluestacks.com/ru/index.html" class="link-button" target="_blank">BlueStacks</a>
+                        </div>
+                        <p>Необходимо скачать установочный файл, затем запустить его и следовать инструкциям для установки. После завершения процесса на вашем экране откроется окно эмулятора, которое потребуется для дальнейших действий.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <p>Открываем браузер и переходим на сайт инжектора:</p>
+                        <div class="links">
+                            <a href="https://codex.lol/" class="link-button" target="_blank">Codex.lol</a>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <p>Нажимаем кнопку «‎Download for Android».</p>
+                    </div>
+                    
+                    <div class="step">
+                        <p>Кликаем по кнопке справа «DOWNOLOAD‎».</p>
+                    </div>
+                    
+                    <div class="step">
+                        <p>Появится кнопки с переходом на рекламные сайты. Нажимаем и ждем 10 секунд и возвращаемся обратно.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <p>Нас перекинет на сайт, где можно скачать инжектор.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <p>Скачиваете файл и переносите его в окно эмулятора. На главном экране появится икона Roblox.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <p>Входите в свой аккаунт, а затем загружаетесь в нужный режим. Перед вами появится окно инжектора с активацией.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <p>Вставляем в окне инжектора нужный нам скрипт и ждем загрузку самого скрипта.</p>
+                    </div>
+                </div>
+                
+                <div class="note">
+                    <p>📌 Меню инжектора открывается свайпом по левому краю. Там же выключаете активный пункт и можете спокойно пользоваться скриптом. Приятной игры!</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Решение проблем</h2>
+                <p>📌Если Roblox в эмуляторе сильно лагает, нужно проверить, включена ли виртуализация. (Напротив VT должно быть надпись Включено, если написано выключено - ее нужно включить. В интернете есть инструкции как это сделать на вашей материнской плате, но перед этим проверьте, поддерживает ли ваша модель процессора эту технологию.)</p>
+            </div>
+            
+            <div class="section">
+                <h2>Помощь</h2>
+                <p>Если у вас остались вопросы по инжектору или эмулятору, не стесняйтесь писать в личные сообщения. Постараюсь ответить как можно скорее и с удовольствием помогу вам разобраться в любом вопросе.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 Гайд на установку инжектора</p>
+        </footer>
+    </div>
+</body>
+</html>
